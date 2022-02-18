@@ -1,0 +1,9 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://i.pinimg.com/236x/8f/38/82/8f388244769c3238231f85cbaa7dfa36.jpg');
+    background-size:cover;
+    height: 499px;
+    width: 1414px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}

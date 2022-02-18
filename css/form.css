@@ -1,0 +1,501 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+      
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+ 
+}
+}
+#wrapper {
+    width: 30%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+    #wrapper{
+    width: 100%;
+}
+}
+form {
+    background: transparent;
+    width: 200%;
+    color: #fff;
+    position: relative;
+    right: 135px;
+    top: -15px;
+}
+@media screen and (max-width: 600px) {
+    form {
+        background: transparent;
+        width: 100%;
+        color: #fff;
+        position: relative;
+        right: 1px;
+        top: -41px;
+    }
+}
+select{
+    margin-top: 2px;
+    border-radius: 3px;
+    text-align: start;
+    height: 70%;
+    width: 61%;
+    float: right;
+    background-color: white;
+    border: 1px solid grey;
+}
+@media screen and (max-width: 600px) {
+    select{
+        margin-top: 2px;
+        border-radius: 3px;
+        text-align: start;
+        height: 70%;
+        width: 91%;
+        background-color: white;
+        border: 1px solid grey;
+}
+}
+#titleRegistration {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#userInformation {
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+legend {
+    font-weight: bold;
+    margin-left: 204px;
+    font-size: 24px;
+    color: rgb(145, 5, 5);
+}
+@media screen and (max-width: 600px) {
+    
+}
+.divInformation {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+    .divInformation {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    }
+}
+.divInformation div {
+    width: 51%;
+    height: 25%;
+    float: right;
+}
+
+.divInformation div p {
+    color: rgb(248, 1, 1);
+    width: 100%;
+    height: 100%;
+    float: right;
+    font-size: 12px;
+    margin-top: 60px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    
+}
+.label {
+    color: #fff;
+    height: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+.input {
+    margin-top: 2px;
+    border-radius: 3px;
+    height: 80%;
+    width: 61%;
+    float: right;
+    background-color: white;
+    border: 1px solid grey;
+}
+@media screen and (max-width: 600px) {
+    .input{
+ 
+    }
+}
+/* #nextStep {
+    border: 1px solid rgb(145, 5, 5);
+    border-top: none;
+    border-top: none;
+    text-align: center;
+} */
+
+/* #nextStepBtn{
+    background-color: rgb(73 195 155);
+    height: 24px;
+    width: 114px;
+    margin-left: 256px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+} */
+.btn{
+    background-color: rgb(241 153 22);
+    height: 42px;
+    width: 135px;
+    margin-left: 100px;
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-top: 0px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    .btn{
+        background-color: rgb(241 153 22);
+        height: 42px;
+        width: 135px;
+        color: white;
+        margin-left: 32px;
+        font-size: 19px;
+        margin-top: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+}
+#nextStepBtn:hover {
+    cursor: pointer;
+}
+
+#verifyHuman {
+    text-align: center;
+    border: 1px solid rgb(145, 5, 5);
+    margin-top: 40%;
+}
+@media screen and (max-width: 600px) {
+    
+}
+.labelNumber {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(145, 5, 5);
+}
+@media screen and (max-width: 600px) {
+    
+}
+#numberVerification {
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(4, 133, 36);
+}
+@media screen and (max-width: 600px) {
+    
+}
+#incorrectSum {
+    color: rgb(248, 1, 1);
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#submitFieldset {
+    border: none;
+    margin-bottom: 40%;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#submit {
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#submitBtn {
+    background-color: rgb(145, 5, 5);
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#submitBtn:hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#ageVerification {
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid rgb(145, 5, 5);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#yesBtn {
+    float: left;
+    border-radius: 10px;
+    background-color: rgb(250, 164, 3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#noBtn {
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(211, 6, 6);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#congratulationsFieldset {
+    border: 1px solid rgb(102, 2, 2);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#congratulations {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(145, 5, 5);
+}
+@media screen and (max-width: 600px) {
+    
+}
+#successfullySubmitted {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(145, 5, 5);
+}
+@media screen and (max-width: 600px) {
+    
+}
+#stoppingFieldset {
+    border: 1px solid rgb(248, 1, 1);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#stop {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(248, 1, 1);
+}
+@media screen and (max-width: 600px) {
+    
+}
+#notAllowedToContinue {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(248, 1, 1);
+}
+@media screen and (max-width: 600px) {
+    
+}
+.errorDiv {
+    width: 50%;
+    float: right;
+    margin-top: 0px;
+    font-size: 8px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#emptyUsername {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#notEnoughLetters {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#tooMuchLetters {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#lettersOrNumbers {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#emptyFirstName {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#incorrectFirstName {
+    display: none;
+}
+
+#emptyLastName {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#incorrectLastName {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#emptyEmail {
+    display: none;
+}
+
+#incorrectEmail {
+    display: none;
+}
+
+#emptyPassword {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#tooShortPassword {
+    display: none;
+}
+
+#tooLongPassword {
+    display: none;
+}
+
+#passwordNotMatch {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+#emptyField {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    
+}
+@media screen and (max-width: 600px) {
+    #titleRegistration {
+        font-size: 24px;
+    }
+    legend {
+        font-size: 20px;
+    }
+    .label {
+        font-size: 18px;
+    }
+    #nextStepBtn {
+        font-size: 16px;
+    }
+    #submitBtn {
+        font-size: 20px;
+    }
+    #yesBtn {
+        width: 100%;
+    }
+    #noBtn {
+        width: 100%;
+    }
+    #congratulations {
+        font-size: 24px;
+    }
+    #successfullySubmitted {
+        font-size: 18px;
+    }
+    #stop {
+        font-size: 24px;
+    }
+    #notAllowedToContinue {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    #titleRegistration {
+        font-size: 20px;
+    }
+    legend {
+        font-size: 18px;
+    }
+    .label {
+        font-size: 16px;
+    }
+    .input {
+            width: 90%;
+     
+    font-size: 12px;
+    }
+    .divInformation div {
+        width: 100%;
+    }
+    #congratulations {
+        font-size: 14px;
+    }
+    #successfullySubmitted {
+        font-size: 12px;
+    }
+    #stop {
+        font-size: 14px;
+    }
+    #notAllowedToContinue {
+        font-size: 12px;
+    }
+}
+
+ 
